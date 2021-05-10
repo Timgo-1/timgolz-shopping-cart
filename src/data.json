@@ -1,0 +1,100 @@
+{
+    "products": [
+        {
+            "_id":"cloth1",
+            "image":"clothes/cloth1.jpg", 
+            "title":"Midi summer grey denim designers shirt with long-sleeves detail", 
+            "description":"This is for all the latest trends",
+            "availableSizes":["XS", "L", "XL", "XXL"],
+            "price": 29.9
+        },
+        {
+            "_id":"cloth2",
+            "image":"clothes/cloth2.jpg", 
+            "title":"Midi summer light-grey designers shirt with long-sleeves detail", 
+            "description":"This is for all the latest trends",
+            "availableSizes":["M", "L", "XL"],
+            "price": 23.8 
+        },
+        {
+            "_id":"cloth3",
+            "image":"clothes/cloth3.jpg", 
+            "title":"Midi summer grey|blue check designers shirt with long-sleeves detail", 
+            "description":"This is for all the latest trends",
+            "availableSizes":["L", "XL", "XXL"],
+            "price": 28.2
+        },
+        {
+            "_id":"cloth4",
+            "image":"clothes/cloth4.jpg", 
+            "title":"Midi summer scripted-white designers shirt with short-sleeves detail", 
+            "description":"This is for all the latest trends",
+            "availableSizes":["S", "XL", "XXL"],
+            "price": 23.5
+        },
+        {
+            "_id":"cloth5",
+            "image":"clothes/cloth5.jpg", 
+            "title":"Midi summer navy-blue check designers shirt with long-sleeves detail", 
+            "description":"This is for all the latest trends",
+            "availableSizes":["M", "L", "XXL"],
+            "price": 26.7
+        },
+        {
+            "_id":"cloth6",
+            "image":"clothes/cloth6.jpg", 
+            "title":"Midi summer plain white designers shirt with long-sleeves detail", 
+            "description":"This is for all the latest trends",
+            "availableSizes":["M", "L", "XL"],
+            "price": 21.5
+        },
+        {
+            "_id":"cloth7",
+            "image":"clothes/cloth7.jpg", 
+            "title":"Midi summer sky-blue check designers shirt with long-sleeves detail", 
+            "description":"This is for all the latest trends",
+            "availableSizes":["XS", "M", "XL"],
+            "price": 23.8
+        },
+        {
+            "_id":"cloth8",
+            "image":"clothes/cloth8.jpg", 
+            "title":"Midi summer floral-designers shirt with long-sleeves detail", 
+            "description":"This is for all the latest trends",
+            "availableSizes":["XS", "S", "XL"],
+            "price": 39.9
+        },
+        {
+            "_id":"cloth9",
+            "image":"clothes/cloth9.jpg", 
+            "title":"Midi summer grey designers shirt with long-sleeves detail", 
+            "description":"This is for all the latest trends",
+            "availableSizes":["S", "M", "XL"],
+            "price": 29.2
+        },
+        {
+            "_id":"cloth10",
+            "image":"clothes/cloth10.jpg", 
+            "title":"Midi summer blue|red designers shirt with long-sleeves detail", 
+            "description":"This is for all the latest trends",
+            "availableSizes":["XS", "M", "L"],
+            "price": 19.5
+        },
+        {
+            "_id":"cloth11",
+            "image":"clothes/cloth11.jpg", 
+            "title":"Midi summer pale black designers shirt with long-sleeves detail", 
+            "description":"This is for all the latest trends",
+            "availableSizes":["S", "XL", "XXL"],
+            "price": 25.3
+        },
+        {
+            "_id":"cloth12",
+            "image":"clothes/cloth12.jpg", 
+            "title":"Midi summer white|black designers shirt with long-sleeves detail", 
+            "description":"This is for all the latest trends",
+            "availableSizes":["XS", "S", "L"],
+            "price": 31.9
+        }
+    ]
+}
