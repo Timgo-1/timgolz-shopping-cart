@@ -9,8 +9,6 @@
 /coverage
 
 # production
-.env.development
-Procfile
 /build
 
 # misc
