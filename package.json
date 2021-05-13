@@ -28,6 +28,7 @@
     "server": "nodemon server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "heroku-postbuild": "cd timgolz-shoppping-cart && npm && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
