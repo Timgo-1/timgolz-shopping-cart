@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "body-parser": "^1.19.0",
+    "concurrently": "^6.1.0",
     "express": "^4.17.1",
     "http-proxy-middleware": "^2.0.0",
     "mongoose": "^5.12.7",
@@ -28,10 +29,13 @@
     "node": "12.18.3"
   },
   "scripts": {
+    "timgolz-shopping-cart-install": "npm install --prefix timgolz-shopping-cart",
+    "start": "node server.js",
     "server": "nodemon server.js",
-    "start": "react-scripts start",
+    "timgolz-shopping-cart": "npm start --prefix timgolz-shopping-cart",
+    "dev": "concurrently \"npm run server\" \"npm run timgolz-shopping-cart\"",
+    "heroku-postbuild":      "NPM_CONFIG_PRODUCTION=false npm install --prefix timgolz-shopping-cart        && npm run build --prefix timgolz-shopping-cart",
     "build": "react-scripts build",
-    "heroku-postbuild": "cd timgolz-shoppping-cart && npm && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -57,5 +61,3 @@
     "morgan": "^1.10.0"
   }
 }
-
-
