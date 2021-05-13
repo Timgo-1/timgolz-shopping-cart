@@ -9,7 +9,9 @@
 /coverage
 
 # production
-
+.env.development
+Procfile
+/build
 
 # misc
 .DS_Store

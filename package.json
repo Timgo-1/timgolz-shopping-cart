@@ -3,12 +3,6 @@
   "proxy": "http://localhost:5000",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://timgolz-shopping-cart.herokuapp.com/",
-  "main": "server.js",
-  "engines": {
-    "npm": "6.14.6",
-    "node": "12.18.3"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
@@ -31,9 +25,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "heroku-postbuild": "npm install",
     "server": "nodemon server.js",
-    "start": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -60,3 +53,5 @@
     "morgan": "^1.10.0"
   }
 }
+
+
