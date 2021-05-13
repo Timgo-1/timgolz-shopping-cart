@@ -95,5 +95,5 @@ app.post("/api/orders", async (req, res) => {
     res.send(order);
   });
   
-const port = process.env.PORT ||  "https://timgolz-shopping-cart.herokuapp.com/";
+const port = process.env.PORT ||  "https://timgolz-shopping-cart.herokuapp.com/api";
 app.listen(port, () => console.log("serve at https://timgolz-shopping-cart.herokuapp.com/"));
