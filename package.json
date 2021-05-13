@@ -33,12 +33,10 @@
     "timgolz-shopping-cart-install": "npm install --prefix timgolz-shopping-cart",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "timgolz-shopping-cart": "npm start --prefix timgolz-shopping-cart",
-    "dev": "concurrently \"npm run server\" \"npm run timgolz-shopping-cart\"",
-    "heroku-postbuild":      "NPM_CONFIG_PRODUCTION=false npm install --prefix timgolz-shopping-cart        && npm run build --prefix timgolz-shopping-cart",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
   },
   "eslintConfig": {
     "extends": [
