@@ -30,7 +30,6 @@
     "node": "12.18.3"
   },
   "scripts": {
-    "timgolz-shopping-cart-install": "npm install --prefix timgolz-shopping-cart",
     "start": "node server.js",
     "server": "nodemon server.js",
     "build": "react-scripts build",
