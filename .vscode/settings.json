@@ -1,0 +1,6 @@
+{
+    "debug.javascript.autoAttachSmartPattern": [
+        "!**/node_modules/**",
+        "**/$KNOWN_TOOLS$/**"
+    ]
+}
